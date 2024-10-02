@@ -23,7 +23,7 @@
     <link id="pagestyle" href="{{ asset('admin/assets/css/material-dashboard.css?v=3.1.0') }}" rel="stylesheet"/>
     <!-- Nepcha Analytics (nepcha.com) -->
     <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
-    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+{{--    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>--}}
 </head>
 
 <body class="bg-gray-200">
@@ -32,7 +32,7 @@
         <div class="col-12">
             <!-- Navbar -->
             <nav class="navbar d-flex justify-content-center navbar-expand-lg blur border-radius-xl top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
-                <p>EbookVIP Website đỉnh nóc kịch trần !!!</p>
+                <p>TruyenPro Website đỉnh nóc kịch trần !!!</p>
             </nav>
             <!-- End Navbar -->
         </div>
@@ -50,7 +50,7 @@
                             <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
                                 <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Đăng nhập</h4>
                                 <div class="row mt-3 text-center text-white">
-                                    <p class="">Chào mừng đến trang quản trị EbookVIP</p>
+                                    <p class="">Chào mừng đến trang quản trị TruyenPro</p>
                                 </div>
                             </div>
                         </div>
@@ -113,13 +113,13 @@
                             </script>
                             ,
                             bản quyền thuộc  <i class="fa fa-heart" aria-hidden="true"></i> về
-                            <a class="font-weight-bold text-white" target="_blank">EbookVIP </a>.
+                            <a class="font-weight-bold text-white" target="_blank">TruyenPro </a>.
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                             <li class="nav-item">
-                                <a  class="nav-link text-white" target="_blank">EbookVIP</a>
+                                <a  class="nav-link text-white" target="_blank">TruyenPro</a>
                             </li>
                         </ul>
                     </div>

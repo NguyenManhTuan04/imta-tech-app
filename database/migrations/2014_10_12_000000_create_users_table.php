@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('avatar')->nullable();
             $table->string('password');
             $table->enum('membership_type', ['free', 'premium'])->default('free');
+            $table->timestamp('email_verified_at')->nullable();
+            $table->rememberToken();
             $table->timestamps();
         });
     }

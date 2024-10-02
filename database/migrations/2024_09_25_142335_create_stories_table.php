@@ -16,9 +16,11 @@ return new class extends Migration
             $table->string('title');
             $table->string('author');
             $table->text('description');
-            $table->foreignId('genre_id')->constrained('genres')->onDelete('cascade');
+            $table->foreignId('genre_id')->nullable()->constrained('genres')->onDelete('set null');
             $table->string('cover_image')->nullable();
             $table->boolean('premium')->default(false);
+            $table->enum('status', ['an', 'hien'])->default('an');
+            $table->enum('status_update', ['dang_ra', 'hoan_thanh'])->default('dang_ra');
             $table->timestamps();
         });
     }

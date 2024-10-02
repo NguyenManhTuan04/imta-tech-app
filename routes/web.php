@@ -22,5 +22,6 @@ Route::prefix('admin')->middleware('auth')->group(function () {
         return view('admin.dashboard');
     })->name('dashboard');
     Route::resource('genre', \App\Http\Controllers\Admin\GenreController::class);
+    Route::resource('story', \App\Http\Controllers\Admin\StoryController::class);
 });
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

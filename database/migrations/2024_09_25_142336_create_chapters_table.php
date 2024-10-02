@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('story_id')->constrained('stories')->onDelete('cascade');
             $table->string('title');
             $table->text('content');
+            $table->enum('status', ['an', 'hien'])->default('an');
             $table->timestamps();
         });
     }
